@@ -2,12 +2,13 @@
   font-family: "Inika", serif;
   font-weight: 400;
   font-style: normal;
-  color: #EADCCB;
 }
 
 .inika-bold {
   font-family: "Inika", serif;
   font-weight: 700;
   font-style: normal;
-  color: #EADCCB;
+}
+.backback{
+  background-color: #F5F5F5;
 }
