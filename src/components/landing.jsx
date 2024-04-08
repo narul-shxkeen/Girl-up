@@ -1,18 +1,19 @@
 import React from "react";
+import Home from "./home";
+import Get_involved from "./get_involved";
+import Project from "./project";
+import "../App.css"
 
 function Landing(){
-    return <div className="bg-black w-[99vw] h-[90vh] flex justify-center">
-        <div className="flex flex-col backback w-11/12 rounded-[65px] h-[80vh] mt-8 items-center">
-            <h1 className="text-3xl inika-bold pb-4 tracking-wide mt-4">GIRLUP UJJIWAN</h1>
-            {/* <p className="inika-regular">
-
-            Girl Up is a girl-centered leadership development 
-            initiative, focusing on equity for girls 
-            and women in spaces where they are unheard or underrepresented. We believe when girls and 
-            women are in positions of influence, they work to create a more just and equitable world for everyone.
-
-            </p> */}
+    return <div className="bg-[#EADCCB] w-[99vw] h-[90vh] flex justify-center z-10">
+  
+        <div className="bg-[#F5F5F5] flex flex-col w-11/12 rounded-[65px] h-[80vh] mt-8 items-center justify-center z-0">
+            <div className="overflow-y-scroll h-full w-full">
+                <Home className=""/>
+                <Get_involved/>
+                <Project/>
             </div>
+        </div>
             </div>
 }
 
