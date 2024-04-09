@@ -19,3 +19,16 @@
   background-size:cover;
   opacity: 0.5;
 }
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler:focus {
+  border-color: #fff;
+  box-shadow: none;
+  border-width: 3px;
+}
+
+body{
+  overflow-y: hidden;
+}
