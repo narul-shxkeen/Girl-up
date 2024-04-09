@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-   <div className='h-[150vh] md:h-full relative rounded-[65px]'>
+   <div className='h-[150vh] md:h-full relative overflow-hidden rounded-[65px]'>
         <div className="absolute sm:w-[110%] z-[-5]">
             <img className="h-[100vh] sm:w-[100%] object-fill" src="/images/home2.png"/>
         </div>
