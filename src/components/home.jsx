@@ -4,7 +4,7 @@ const Home = () => {
     return (
    <div className='h-[100vh] md:h-full relative overflow-hidden rounded-[65px]'>
         <div className="absolute sm:w-[110%] z-[-5]">
-            <img className="h-[80vh] w-auto sm:w-[100%] sm:h-auto" src="/images/home2.png"/>
+            <img className="h-[80vh] w-auto sm:w-[100%] sm:h-auto object-fill" src="/images/home2.png"/>
         </div>
         <div className=" relative flex flex-col w-[100%] h-full sm:items-center justify-center overflow-hidden z-20">
             <h1 className="text-3xl sm:text-4xl md:text-6xl inika-bold sm:pb-4 tracking-wide mt-1 sm:mt-4 z-20 text-center">GIRL UP UJJIWAN</h1>
