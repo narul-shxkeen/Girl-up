@@ -17,7 +17,7 @@ function Slides(props){
       };
       return (
         <div className="w-full px-20 flex flex-col justify-center items-center gap-8">
-            <div className="slider-container w-full">
+            <div className="slider-container md:w-full md:h-auto">
 
       
           <Slider {...settings}>
