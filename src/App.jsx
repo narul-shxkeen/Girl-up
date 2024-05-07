@@ -4,7 +4,10 @@ import Landing from "./components/landing"
 
 
 function App(){
-  return <div className="overflow-hidden"><NavG/><Landing/></div>
+  return <div className="overflow-hidden">
+    <NavG/>
+    <Landing/>
+    </div>
 }
 
 export default App
