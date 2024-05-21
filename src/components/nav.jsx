@@ -9,7 +9,7 @@ import "../App.css"
 function NavG(props){
   return     <Navbar collapseOnSelect expand="lg" className="bg-[#502E2A] text-white sm:h-20" data-bs-theme="light">
   <Container className="flex justify-between items-center">
-    <Navbar.Brand href="#home"> <img className="h-20 sm:h-20 rounded-full px-1 py-1 relative sm:top-8" src="/images/logo.png"/></Navbar.Brand>
+    <Navbar.Brand href="#home"> <img className="h-20 sm:h-20 rounded-full px-1 py-1 relative sm:top-8 z-40" src="/images/logo.png"/></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav navbar-toggler" />
     <Navbar.Collapse id="responsive-navbar-nav">
      <Nav className="text-white flex justify-end ms-auto">
@@ -18,7 +18,7 @@ function NavG(props){
         <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => click("landing")}>Events</button></Nav.Link>
         <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => handleCurrent("landing")}>Meet the team</button></Nav.Link>
         <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => handleCurrent("landing")}>Donations</button></Nav.Link>
-        <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => handleCurrent("landing")}>Contact Us</button></Nav.Link>
+        <Nav.Link as={Link} to="/contact"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => handleCurrent("landing")}>Contact Us</button></Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
