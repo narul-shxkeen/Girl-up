@@ -16,9 +16,9 @@ function NavG(props){
      <Nav.Link as={Link} to="/"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white" onClick={() => props.click("landing")}>Home</button></Nav.Link>
         <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => props.click("landing")}>About Us</button></Nav.Link>
         <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => click("landing")}>Events</button></Nav.Link>
-        <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => handleCurrent("landing")}>Meet the team</button></Nav.Link>
-        <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => handleCurrent("landing")}>Donations</button></Nav.Link>
-        <Nav.Link as={Link} to="/contact"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => handleCurrent("landing")}>Contact Us</button></Nav.Link>
+        <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => click("landing")}>Meet the team</button></Nav.Link>
+        <Nav.Link as={Link} to="/about"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => click("landing")}>Donations</button></Nav.Link>
+        <Nav.Link as={Link} to="/contact"><button className="px-1 rounded hover:bg-gray-700 flex items-center justify-center text-white"onClick={() => click("landing")}>Contact Us</button></Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

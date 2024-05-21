@@ -19,9 +19,12 @@ function Contact(){
       },
       body: JSON.stringify(details),
     });
-    setStatus("Submit");
+    setStatus("Submitted");
+    setTimeout(() => {
+      setStatus("Submit");
+    }, 3000);
     let result = await response.json();
-    alert(result.status);
+   
   };
 
     return <div className=""> 
@@ -32,17 +35,17 @@ function Contact(){
             <div className="bg-[#D9D9D9] rounded-[65px] z-10 mx-40 mb-40 my-12 absolute top-[10px] px-5 py-12 flex flex-col items-center w-2/3">
                 <p className="sen-regular text-xl text-black mb-4">Send us a message</p>
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-full">
-      <div className="flex gap-4">
+      <div className="flex w-[200px] sm:w-[350px] justify-between overflow-x-hidden">
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" className="relative left-4 rounded-sm" required />
+        <input type="text" id="name" className="relative rounded-sm  w-[100px] sm:w-[250px]" required />
       </div>
-      <div className="flex gap-4">
+      <div className="flex w-[200px] sm:w-[350px] justify-between overflow-x-hidden">
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" className="relative left-5 rounded-sm" required />
+        <input type="email" id="email" className="relative rounded-sm w-[100px] sm:w-[250px]" required />
       </div>
-      <div className="flex gap-4">
+      <div className="flex w-[200px] sm:w-[350px] justify-between overflow-x-hidden">
         <label htmlFor="message">Message:</label>
-        <textarea id="message" required className="relative right-1 rounded-sm"/>
+        <textarea id="message" required className="relative rounded-sm w-[100px] sm:w-[250px] h-[100px] sm:h-[200px]"/>
       </div>
       <button type="submit" className="bg-[#502E2A] px-3 py-1 rounded-lg text-white">{status}</button>
     </form>
