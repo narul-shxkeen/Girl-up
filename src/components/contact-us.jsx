@@ -27,12 +27,12 @@ function Contact(){
    
   };
 
-    return <div className=""> 
-    <div className="bg-[#E3D5CA] flex flex-col items-center h-[100vh] overflow-y-scroll">
+    return <div className="h-[100vh] overflow-y-scroll"> 
+    <div className="bg-[#E3D5CA] flex flex-col items-center">
         <h1 className="sen-regular mt-3 text-7xl mb-3 text-center">Contact Us</h1>
-        <div className="relative h-[200vh] flex flex-col items-center">
-            <img src="/images/home2.png" className="w-[100vw] h-auto z-0 object-cover"/>
-            <div className="bg-[#D9D9D9] rounded-[65px] z-10 mx-40 mb-40 my-12 absolute top-[10px] px-5 py-12 flex flex-col items-center w-2/3">
+        <div className="relative h-[120vh] flex flex-col items-center">
+            <img src="/images/home2.png" className="h-full w-auto sm:w-[100vw] sm:h-auto z-0 object-cover"/>
+            <div className="bg-[#D9D9D9] rounded-[65px] z-10 mx-20 mb-20 sm:mx-40 sm:mb-40 my-12 absolute top-[10px] px-5 py-12 flex flex-col items-center w-2/3">
                 <p className="sen-regular text-xl text-black mb-4">Send us a message</p>
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-full">
       <div className="flex w-[200px] sm:w-[350px] justify-between overflow-x-hidden">
