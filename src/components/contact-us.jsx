@@ -32,20 +32,20 @@ function Contact(){
         <h1 className="sen-regular mt-3 text-7xl mb-3 text-center">Contact Us</h1>
         <div className="relative h-[120vh] flex flex-col items-center">
             <img src="/images/home2.png" className="h-full w-auto sm:w-[100vw] sm:h-auto z-0 object-cover"/>
-            <div className="bg-[#D9D9D9] rounded-[65px] z-10 mx-20 mb-20 sm:mx-40 sm:mb-40 my-12 absolute top-[10px] px-5 py-12 flex flex-col items-center w-2/3">
-                <p className="sen-regular text-xl text-black mb-4">Send us a message</p>
+            <div className="bg-[#D9D9D9] rounded-[65px] z-10 mb-20 sm:mx-40 sm:mb-40 my-12 absolute top-[10px] px-5 py-12 flex flex-col items-center justify-center w-[270px] sm:w-2/3">
+                <p className="sen-regular text-xl text-black mb-4 text-center">Send us a message</p>
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-full">
       <div className="flex w-[200px] sm:w-[350px] justify-between overflow-x-hidden">
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" className="relative rounded-sm  w-[100px] sm:w-[250px]" required />
+        <input type="text" id="name" className="relative rounded-sm  w-[120px] sm:w-[250px]" required />
       </div>
       <div className="flex w-[200px] sm:w-[350px] justify-between overflow-x-hidden">
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" className="relative rounded-sm w-[100px] sm:w-[250px]" required />
+        <input type="email" id="email" className="relative rounded-sm w-[120px] sm:w-[250px]" required />
       </div>
       <div className="flex w-[200px] sm:w-[350px] justify-between overflow-x-hidden">
         <label htmlFor="message">Message:</label>
-        <textarea id="message" required className="relative rounded-sm w-[100px] sm:w-[250px] h-[100px] sm:h-[200px]"/>
+        <textarea id="message" required className="relative rounded-sm w-[120px] sm:w-[250px] h-[100px] sm:h-[200px]"/>
       </div>
       <button type="submit" className="bg-[#502E2A] px-3 py-1 rounded-lg text-white">{status}</button>
     </form>
