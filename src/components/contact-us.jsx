@@ -31,7 +31,7 @@ function Contact(){
     <div className="bg-[#E3D5CA] flex flex-col items-center">
         <h1 className="sen-regular mt-3 text-7xl mb-3 text-center">Contact Us</h1>
         <div className="relative h-[120vh] flex flex-col items-center">
-            <img src="/images/home2.png" className="h-full w-auto sm:w-[100vw] sm:h-auto z-0 object-cover"/>
+            <img src="/images/home2.png" className="sm:w-[100vw] sm:h-auto h-full  z-0 object-cover"/>
             <div className="bg-[#D9D9D9] rounded-[65px] z-10 mb-20 sm:mx-40 sm:mb-40 my-12 absolute top-[10px] px-5 py-12 flex flex-col items-center justify-center w-[270px] sm:w-2/3">
                 <p className="sen-regular text-xl text-black mb-4 text-center">Send us a message</p>
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-full">
