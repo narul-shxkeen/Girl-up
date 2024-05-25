@@ -20,6 +20,10 @@ function Contact(){
       body: JSON.stringify(details),
     });
     setStatus("Submitted");
+    name.value = "";
+    email.value = "";
+    message.value = "";
+  
     setTimeout(() => {
       setStatus("Submit");
     }, 3000);
