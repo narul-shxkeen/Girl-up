@@ -1,8 +1,7 @@
 import React from "react";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const baseUrl = "/images/first_project/";
 function Slides(props){
@@ -13,33 +12,42 @@ function Slides(props){
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        waitForAnimate: false
+        waitForAnimate: false,
+        responsive: [
+          {
+              breakpoint: 640,
+              settings: {
+                  dots: true,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+              }
+          }
+      ]
       };
       return (
-        <div className="w-[1500px] h-[110px] sm:w-full sm:h-auto px-20 flex flex-col justify-center items-center gap-8">
-            <div className="slider-container md:w-full md:h-auto">
+        <div className="w-full h-auto px-20 flex flex-col justify-center items-center gap-8">
+            <div className="slider-container w-full h-auto">
 
       
           <Slider {...settings}>
             <div>
-              <img src={baseUrl + "1.png"} className="" />
-       
+              <img src={baseUrl + "1.png"} className="w-[360px] h-auto sm:w-full" />
             </div>
             <div>
-              <img src={baseUrl + "2.png"} />
+              <img src={baseUrl + "2.png"} className="w-[360px] h-auto sm:w-full"/>
           
             </div>
             <div>
-              <img src={baseUrl + "3.png"} />
+              <img src={baseUrl + "3.png"} className="w-[360px] h-auto sm:w-full"/>
             </div>
             <div>
-              <img src={baseUrl + "4.png"} />
+              <img src={baseUrl + "4.png"} className="w-[360px] h-auto sm:w-full"/>
             </div>
             <div>
-              <img src={baseUrl + "5.png"} />
+              <img src={baseUrl + "5.png"} className="w-[360px] h-auto sm:w-full"/>
             </div>
             <div>
-              <img src={baseUrl + "6.png"} />
+              <img src={baseUrl + "6.png"} className="w-[360px] h-auto sm:w-full"/>
             </div>
           </Slider>
         </div>
