@@ -16,7 +16,7 @@ function Slides(props){
         waitForAnimate: false
       };
       return (
-        <div className="w-full px-20 flex flex-col justify-center items-center gap-8">
+        <div className="w-[1500px] h-[110px] sm:w-full sm:h-auto px-20 flex flex-col justify-center items-center gap-8">
             <div className="slider-container md:w-full md:h-auto">
 
       
@@ -43,7 +43,7 @@ function Slides(props){
             </div>
           </Slider>
         </div>
-        <button onClick={props.click} className="inika-regular bg-[#502E2A] px-3 py-2 rounded-lg text-white">Back to Projects</button>
+        {/* <button onClick={props.click} className="inika-regular bg-[#502E2A] px-3 py-2 rounded-lg text-white">Back to Projects</button> */}
         </div>
       );
 }
