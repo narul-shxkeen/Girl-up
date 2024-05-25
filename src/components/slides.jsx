@@ -22,7 +22,7 @@ function Slides(props){
       
           <Slider {...settings}>
             <div>
-              <img src={baseUrl + "1.png"} />
+              <img src={baseUrl + "1.png"} className="" />
        
             </div>
             <div>

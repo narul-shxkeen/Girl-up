@@ -6,14 +6,30 @@ function Template(){
     <div className="bg-[#E3D5CA] flex flex-col items-center h-[100vh] overflow-y-scroll">
         <h1 className="sen-regular mt-3 text-7xl mb-3 text-center">About Us</h1>
         <div className="relative flex justify-center">
-            <img src="/images/home2.png" className="hidden md:block h-[150vh] z-0 object-cover"/>
+            <img src="/images/home2.png" className="hidden md:block h-[200vh] z-0 object-cover"/>
             <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] z-10 my-10 flex absolute top-[10px] px-5 pt-12 pb-52 sm:pt-12 sm:pb-12 w-[100vw] sm:w-2/3">
-                <p className="poppins-regular text-xl text-black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste vitae nobis eligendi eum veniam sint fugit commodi facilis repellat blanditiis veritatis voluptates magnam sed optio deserunt dolorum labore, accusamus explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, tempora! Necessitatibus debitis, officiis incidunt cum enim sed. Obcaecati, perspiciatis, cum recusandae nemo similique fuga dolore incidunt autem atque voluptate in?Maxime a alias dolor saepe qui aut labore ad cum, velit nesciunt placeat accusantium aliquid porro non assumenda, officia recusandae beatae molestiae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sunt dolor dolorum beatae! Quam nobis quos odio maiores ducimus eaque, ut vitae, impedit enim, aperiam assumenda molestias. Delectus, dolore dignissimos.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, veniam! Reprehenderit ipsum eum at alias iste aut nemo animi, repellat ab neque veniam impedit fugit unde sit fugiat! Hic, dignissimos?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quidem odio molestias error placeat, quisquam expedita eveniet esse cum at? Inventore fuga doloribus quisquam culpa vero ea labore, corrupti dignissimos!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore ipsam blanditiis nulla tempora voluptates error, corrupti vel ullam, earum consequatur totam odit eius cumque velit modi eaque, deleniti sequi. Cupiditate?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum reiciendis ad et magnam facere soluta amet iusto aspernatur laborum. Dolore doloremque quam, cumque expedita harum animi saepe sit voluptatibus.</p>
+                <p className="poppins-regular text-xl text-black">GirlUp Ujjiwan, operating under GirlUp, is an endeavor aimed at empowering women in Asarwarpur as
+well as within Ashoka with essential and basic financial knowledge will create a lasting impact and
+empower women with the tools they require to achieve financial independence.By conducting workshops
+in and out of Ashoka for the housekeeping staff and women in the village on basic financial topics such as
+savings, budgeting, loans and much more, we look to impart all the financial knowledge they need to
+manage their finances independently. Beyond this, our goal also lies in changing their mindset from a
+state of ignorance and stigma to helping them realize their full potential and capability.<br/><br/> We believe as
+fellow women of this country that it is our responsibility to give them all the tools and knowledge they
+need to thrive with confidence!
+Our Goals for the Year:<br/><br/><ul><li>
+● <strong>Village Visits:</strong> Our primary goal is to conduct field visits to villages in Haryana, enabling us to
+gain firsthand insights into the unique challenges women face in these areas. We are starting
+off by conversing with the Ashokan staff in order to understand their difficulties and
+limitations while acquiring financial literacy. This step is essential to our ultimate goal to
+identify the root causes of financial difficulties and gender disparities in the Asawarpur area.
+</li><br/><li>● <strong>Region-Specific Model:</strong> Armed with data from our surveys, we will develop a region-specific
+model to address the financial knowledge gap. This model will be meticulously tailored to the
+specific needs and aspirations of the women in Haryana, ensuring that it is an effective and
+sustainable solution, starting with Asawarpur.</li>
+<br/><li>● <strong>Empowering Education:</strong> We are committed to organizing workshops and educational sessions
+to impart financial knowledge, skills, and resources to women in the community. Our ultimate
+goal is to empower these women to take control of their financial futures</li></ul></p>
             </div>
         </div>
     </div>
