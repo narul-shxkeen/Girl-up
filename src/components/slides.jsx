@@ -25,7 +25,7 @@ function Slides(props){
       ]
       };
       return (
-        <div className="w-full h-auto px-20 flex flex-col justify-center items-center gap-8">
+        <div className="w-full h-auto px-0 sm:px-20 flex flex-col justify-center items-center gap-8">
             <div className="slider-container w-full h-auto">
 
       
