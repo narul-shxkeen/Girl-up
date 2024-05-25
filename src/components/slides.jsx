@@ -31,23 +31,23 @@ function Slides(props){
       
           <Slider {...settings}>
             <div>
-              <img src={baseUrl + "1.png"} className="w-[360px] h-auto sm:w-full" />
+              <img src={baseUrl + "1.png"} className="w-[560px] h-auto sm:w-full" />
             </div>
             <div>
-              <img src={baseUrl + "2.png"} className="w-[360px] h-auto sm:w-full"/>
+              <img src={baseUrl + "2.png"} className="w-[560px] h-auto sm:w-full"/>
           
             </div>
             <div>
-              <img src={baseUrl + "3.png"} className="w-[360px] h-auto sm:w-full"/>
+              <img src={baseUrl + "3.png"} className="w-[560px] h-auto sm:w-full"/>
             </div>
             <div>
-              <img src={baseUrl + "4.png"} className="w-[360px] h-auto sm:w-full"/>
+              <img src={baseUrl + "4.png"} className="w-[560px] h-auto sm:w-full"/>
             </div>
             <div>
-              <img src={baseUrl + "5.png"} className="w-[360px] h-auto sm:w-full"/>
+              <img src={baseUrl + "5.png"} className="w-[560px] h-auto sm:w-full"/>
             </div>
             <div>
-              <img src={baseUrl + "6.png"} className="w-[360px] h-auto sm:w-full"/>
+              <img src={baseUrl + "6.png"} className="w-[560px] h-auto sm:w-full"/>
             </div>
           </Slider>
         </div>
