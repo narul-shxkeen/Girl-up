@@ -6,7 +6,7 @@ const Home = () => {
         <div className="absolute sm:w-[110%] z-[-5]">
             <img className="xs:h-[80vh] sm:w-[100%] object-cover" src="/images/home2.png"/>
         </div>
-        <div className="px-12 pb-12 sm:px-0 relative flex flex-col w-[100%] h-full items-center justify-center overflow-hidden z-20">
+        <div className="px-12 pb-24 sm:pb-0 sm:px-0 relative flex flex-col w-[100%] h-full items-center justify-center overflow-hidden z-20">
             <h1 className="text-3xl sm:text-4xl md:text-6xl inika-bold sm:pb-4 tracking-wide mt-1 sm:mt-4 z-20 text-center">GIRL UP UJJIWAN</h1>
             <div className="xs:px-2 sm:px-16 text-center text-md sm:text-xl text-[#502E2A] z-20 leading-relaxed">
                 <p className="inika-regular">
