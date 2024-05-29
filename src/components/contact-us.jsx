@@ -33,10 +33,10 @@ function Contact(){
 
     return <div className="h-[100vh] overflow-y-scroll"> 
     <div className="bg-[#E3D5CA] flex flex-col items-center">
-        <h1 className="sen-regular sm:mt-3 text-7xl mt-5 sm:mb-3 text-center">Contact Us</h1>
+        <h1 className="sen-regular text-7xl my-6 text-center">Contact Us</h1>
         <div className="relative h-[120vh] flex flex-col items-center">
             <img src="/images/home2.png" className="hidden sm:block sm:w-[100vw] sm:h-auto h-full  z-0 object-cover"/>
-            <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] z-10 mb-20 sm:mx-40 sm:mb-40 my-12 absolute top-[10px] px-5 py-12 flex flex-col items-center justify-center w-[100vw] sm:w-2/3">
+            <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] z-10 mb-20 sm:mx-40 sm:mb-40 absolute top-[10px] px-5 py-12 flex flex-col items-center justify-center w-[100vw] sm:w-2/3">
                 <p className="sen-regular text-xl text-black mb-4 text-center">Send us a message</p>
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-full">
       <div className="flex w-[300px] sm:w-[350px] justify-between overflow-x-hidden">
