@@ -5,7 +5,7 @@ function Template(){
 
     return <div className=""> 
     <div className="bg-[#E3D5CA] flex flex-col items-center h-[100vh] overflow-y-scroll">
-        <h1 className="sen-regular mt-5 sm:mt-3 text-7xl mb-1 sm:mb-3 text-center">About Us</h1>
+        <h1 className="sen-regular my-6 text-7xl text-center">About Us</h1>
         <div>
         <div className="relative flex justify-center">
             <img src="/images/home2.png" className="hidden md:block h-[200vh] z-0 object-cover"/>
