@@ -5,12 +5,9 @@ function Template(){
 
     return <div className=""> 
     <div className="bg-[#E3D5CA] flex flex-col items-center h-[100vh] overflow-y-scroll">
-<<<<<<< Updated upstream
         <h1 className="sen-regular text-7xl my-6 text-center">About Us</h1>
-=======
         <h1 className="sen-regular mt-5 sm:mt-3 text-7xl mb-1 sm:mb-3 text-center">About Us</h1>
         <div>
->>>>>>> Stashed changes
         <div className="relative flex justify-center">
             <img src="/images/home2.png" className="hidden md:block h-[200vh] z-0 object-cover"/>
             <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] z-10 flex absolute top-[10px] px-5 pt-12 pb-52 sm:pt-12 sm:pb-12 w-[100vw] sm:w-2/3">
