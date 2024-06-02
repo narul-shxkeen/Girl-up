@@ -11,7 +11,7 @@ const TeamCard = ({ name, batch, img, object}) => {
                 <img src={img} className = {`md:rounded-[16px] sm:rounded-[61px] object-cover h-[200px] w-[230px] md:w-[150px] ${object}`}/>
             </div>
             <div> 
-            <p className="sen-regular text-[#502E2A] font-bold text-2xl"> {name} </p>
+            <p className="sen-regular text-[#502E2A] font-bold text-3xl mb-2"> {name} </p>
             <p className="sen-regular text-[#502E2A] font-bold text-2xl"> {batch} </p>
             </div>
             </div>
