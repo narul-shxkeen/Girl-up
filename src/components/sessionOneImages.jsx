@@ -30,14 +30,14 @@ function FirstSession(props){
         <div className="w-full h-auto px-0 sm:px-20 flex flex-col justify-center items-center gap-4">
             <div className="slider-container w-full h-auto">
           <Slider {...settings}>
-            <div className="sm:ml-12 sm:mr-12">
-              <img src={baseUrl + "4.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[50vh]" />
+            <div className="sm:ml-12 sm:mr-12 w-full flex justify-center">
+              <img src={baseUrl + "4.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[60vh]" />
             </div>
-            <div className="sm:ml-12 sm:mr-12">
-              <img src={baseUrl + "1.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[50vh]"/>
+            <div className="sm:ml-12 sm:mr-12 flex justify-center">
+              <img src={baseUrl + "1.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[60vh]"/>
             </div>
-            <div className="sm:ml-12 sm:mr-12">
-              <img src={baseUrl + "2.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[50vh]"/>
+            <div className="sm:ml-12 sm:mr-12 flex justify-center">
+              <img src={baseUrl + "2.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[60vh]"/>
             </div>
           </Slider>
         </div>
