@@ -38,7 +38,7 @@ function Contact(){
             <img src="/images/home2.png" className="hidden sm:block sm:w-[100vw] sm:h-auto h-full  z-0 object-cover"/>
             <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] z-10 mb-20 sm:mx-40 sm:mb-40 absolute top-[10px] px-5 py-12 flex flex-col items-center justify-center w-[100vw] sm:w-[40vw]">
                 {/* <p className="sen-regular text-2xl text-black mb-4 text-center">Send us a message</p> */}
-                <p className="sen-regular text-xl-md mb-8 text-center">Your questions and comments matter to us!<br/>Please leave a message.</p>
+                <p className="sen-regular text-xl mb-8 text-center font-bold ">Your questions and comments matter to us!<br/>Please leave a message.</p>
                 <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-full">
       <div className="flex w-[300px] sm:w-[350px] justify-between overflow-x-hidden">
         <label htmlFor="name">Name:</label>
