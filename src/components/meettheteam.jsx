@@ -12,41 +12,37 @@ function MeetTheTeam(){
             <div>
                 <p className="sen-regular text-3xl text-black ml-10 mb-2 font-bold"> Founding Team </p>
                 <p className="sen-regular text-xl text-black ml-10 mb-2"> The Founding team at Girl Up. </p>
-            <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4"  style={{ width: 'fit-content' }} >
-            <Link to="/foundingteam" className="poppins-regular text-xl text-black">
-                meet the team
-                </Link>
-            </div>
+                <div className="bg-[#D9D9D9] hover:bg-black rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4 transition-colors duration-200 ease-in-out hover:text-white" style={{ width: 'fit-content' }}>
+  <Link to="/foundingteam" className="poppins-regular text-xl"> meet the team </Link>
+</div>
             </div>
             <div>
                 <p className="sen-regular text-3xl text-black ml-10 mb-2 font-bold"> Internals </p>
                 <p className="sen-regular text-xl text-black ml-10 mb-2"> The Internals team at Girl Up. </p>
-            <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4" style={{ width: 'fit-content' }}>
-            <Link to="/internals" className="poppins-regular text-xl text-black">
-                meet the team
-                </Link>
-            </div>
+                <div className="bg-[#D9D9D9] hover:bg-black rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4 transition-colors duration-200 ease-in-out hover:text-white" style={{ width: 'fit-content' }}>
+  <Link to="/internals" className="poppins-regular text-xl"> meet the team </Link>
+</div>
             </div>
             <div>
             <p className="sen-regular text-3xl text-black ml-10 mb-2 font-bold"> Externals </p>
                 <p className="sen-regular text-xl text-black ml-10 mb-2"> The Externals team at Girl Up. </p>
-            <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4" style={{ width: 'fit-content' }}>
-                <Link to="/externals" className="poppins-regular text-xl text-black"> meet the team </Link>
-            </div>
+                <div className="bg-[#D9D9D9] hover:bg-black rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4 transition-colors duration-200 ease-in-out hover:text-white" style={{ width: 'fit-content' }}>
+  <Link to="/externals" className="poppins-regular text-xl"> meet the team </Link>
+</div>
             </div>
             <div>
             <p className="sen-regular text-3xl text-black ml-10 mb-2 font-bold"> Social Media </p>
                 <p className="sen-regular text-xl text-black ml-10 mb-2"> The Social Media team at Girl Up. </p>
-            <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4" style={{ width: 'fit-content' }}>
-                <Link to="/socialmedia" className="poppins-regular text-xl text-black"> meet the team </Link>
-            </div>
+                <div className="bg-[#D9D9D9] hover:bg-black rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4 transition-colors duration-200 ease-in-out hover:text-white" style={{ width: 'fit-content' }}>
+  <Link to="/socialmedia" className="poppins-regular text-xl"> meet the team </Link>
+</div>
             </div>
             <div>
             <p className="sen-regular text-3xl text-black ml-10 mb-2 font-bold"> Website </p>
                 <p className="sen-regular text-xl text-black ml-10 mb-2"> The Website team at Girl Up. </p>
-            <div className="bg-[#D9D9D9] rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4" style={{ width: 'fit-content' }}>
-                <Link to="/website" className="poppins-regular text-xl text-black"> meet the team </Link>
-            </div>
+                <div className="bg-[#D9D9D9] hover:bg-black rounded-none sm:rounded-[65px] px-3 py-3 ml-10 pt-12 pb-52 sm:pt-12 sm:pb-12 sm:w-2/3m mb-4 transition-colors duration-200 ease-in-out hover:text-white" style={{ width: 'fit-content' }}>
+  <Link to="/website" className="poppins-regular text-xl"> meet the team </Link>
+</div>
             </div>
             </div>
    
