@@ -1,7 +1,7 @@
 import React from "react";
 import TeamCard from "../../assets/teamcard";
-import Arshia from "./team/Arshia_Kohli.jpeg";
 import Chaarvi from "./team/Chaarvi_Arora.jpg";
+import Arshia from "./team/Arshia_Kohli.png";
 import Kiah from "./team/Kiah_Mehta.jpeg";
 import Arisha from "./team/Arisha_Hegde.jpeg";
 import Rhea from "./team/Rhea_Wali.png";
@@ -14,7 +14,7 @@ function FoundingTeam(){
         <h1 className="sen-regular mt-5 sm:mt-3 text-7xl mb-1 sm:mb-3 text-center"> Founding Team </h1>
         <p className="font-bold text-[#502E2A] drop-shadow-[0_4px_4px_rgba(0, 0, 0, 0.25)] sen-regular mt-5 sm:mt-3 text-5xl mb-1 sm:mb-3 text-center"> Founder: </p>
         <div className="grid md:grid-cols-3">
-        <TeamCard name="Arshia Kohli" batch="UG25" img={Arshia}/>
+        <TeamCard name="Arshia Kohli" batch="UG25" img={Arshia} object=""/>
         </div>
         <p className="font-bold text-[#502E2A] drop-shadow-[0_4px_4px_rgba(0, 0, 0, 0.25)] sen-regular mt-5 sm:mt-3 text-5xl mb-1 sm:mb-3 text-center"> Founding Presidents: </p>
         <div className="grid md:grid-cols-3 md:mb-36 mb-12">
