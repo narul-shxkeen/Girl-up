@@ -15,7 +15,7 @@ function MeetTheTeam(){
         alt="Picture of Arshia Kohli"
         className="object-cover w-[60vh] h-[40vh] md:px-0 px-4"/>
         </div>
-        <p className="sen-regular text-xl -mt-8 text-black p-16 mr-10"> Arshia Kohli is the founder of GirlUp. Her passion for gender equality and financial empowerment has been the driving force behind the establishment of the organization.  She initiated key projects aimed at promoting financial literacy among women and expanded outreach efforts to include both urban and rural communities. Her work has set a strong precedent for the organization's initiatives and growth. </p>
+        <p className="sen-regular text-xl -mt-8 text-black p-16"> Arshia Kohli is the founder of GirlUp. Her passion for gender equality and financial empowerment has been the driving force behind the establishment of the organization.  She initiated key projects aimed at promoting financial literacy among women and expanded outreach efforts to include both urban and rural communities. Her work has set a strong precedent for the organization's initiatives and growth. </p>
         <div className="grid mr-10 md:grid-cols-2 gap-y-6 mb-32"> 
             <div>
                 <p className="sen-regular text-3xl text-black ml-10 mb-2 font-bold underline"> Founding Team </p>
