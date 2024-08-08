@@ -16,7 +16,7 @@ function Event(){
     
     return <div className=""> 
     <div className="bg-[#E3D5CA] flex flex-col items-center h-[100vh] overflow-y-scroll">
-        <h1 className="sen-regular text-7xl text-center my-6">Self Help Groups(SHGs)</h1>
+        <h1 className="sen-regular text-4xl sm:text-7xl text-center my-6">Self Help Groups(SHGs)</h1>
         <div className="relative flex flex-col justify-center items-center">
             <img src="/images/home2.png" className="hidden md:block h-[300vh] z-0 object-cover"/>
             <div className="bg-[#D9D9D9] rounded-none flex flex-col items-center sm:rounded-[65px] z-10 absolute top-[10px] px-5 pt-12 pb-52 sm:pt-12 sm:pb-12 w-[100vw] sm:w-2/3">
