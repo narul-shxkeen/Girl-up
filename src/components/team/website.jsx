@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCard from "../../assets/teamcard";
-import Anam from "./team/anamahmed.jpeg";
+import Anam from "./team/anamahmed.png";
 import Bhoomika from "./team/bhoomikaagrawal.jpg"; 
 import Manya from "./team/manyagarg.jpg"; 
 import Vaibhav from "./team/vaibhavshokeen.jpeg";
