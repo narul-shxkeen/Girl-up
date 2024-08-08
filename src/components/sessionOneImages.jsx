@@ -3,8 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const baseUrl = "/images/first_project/budgeting/";
-function FirstSession(props){
+function ImageSlider({ imageUrls }) {
     const settings = {
         dots: true,
         fade: true,
@@ -13,37 +12,33 @@ function FirstSession(props){
         slidesToShow: 1,
         slidesToScroll: 1,
         waitForAnimate: false,
-        autoplay:true,
-        autoplaySpeed:2000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
-          {
-              breakpoint: 640,
-              settings: {
-                  dots: true,
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-              }
-          }
-      ]
-      };
-      return (
+            {
+                breakpoint: 640,
+                settings: {
+                    dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    };
+
+    return (
         <div className="w-full h-auto px-0 sm:px-20 flex flex-col justify-center items-center gap-4">
             <div className="slider-container w-full h-auto">
-          <Slider {...settings}>
-            <div className="sm:ml-12 sm:mr-12 w-full flex justify-center">
-              <img src={baseUrl + "4.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[60vh]" />
+                <Slider {...settings}>
+                    {imageUrls.map((url, index) => (
+                        <div key={index} className="sm:ml-12 sm:mr-12 w-full flex justify-center">
+                            <img src={url} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[60vh]" alt={`slide-${index}`} />
+                        </div>
+                    ))}
+                </Slider>
             </div>
-            <div className="sm:ml-12 sm:mr-12 flex justify-center">
-              <img src={baseUrl + "1.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[60vh]"/>
-            </div>
-            <div className="sm:ml-12 sm:mr-12 flex justify-center">
-              <img src={baseUrl + "2.jpeg"} className="w-[560px] h-[360px] sm:w-[50vw] sm:h-[60vh]"/>
-            </div>
-          </Slider>
         </div>
-        {/* <button onClick={props.click} className="inika-regular bg-[#502E2A] px-3 py-2 rounded-lg text-white">Back to Projects</button> */}
-        </div>
-      );
+    );
 }
 
-export default FirstSession;
+export default ImageSlider;

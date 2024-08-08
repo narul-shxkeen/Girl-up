@@ -4,6 +4,8 @@ import Landing from "./components/landing"
 import About from "./components/about"
 import Contact from "./components/contact-us"
 import Event from "./components/event1"
+import Event2 from "./components/event2"
+import Event3 from "./components/event3"
 import EventMain from "./components/events";
 import MeetTheTeam from "./components/meettheteam";
 import Internals from "./components/team/internals";
@@ -26,6 +28,8 @@ function App(){
         <Route path="/contact" element={<Contact />} />
         <Route path="/events" element={<EventMain />} /> 
         <Route path="/first" element={<Event />} />
+        <Route path="/second" element={<Event2 />} /> 
+        <Route path="/third" element={<Event3 />} />
         <Route path="/team" element={<MeetTheTeam/> }/>
         <Route path="/internals" element={<Internals />}/>
         <Route path="/externals" element={<Externals />}/>

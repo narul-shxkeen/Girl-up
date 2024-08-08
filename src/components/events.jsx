@@ -1,6 +1,4 @@
 import React from "react";
-import MeetTheTeam from "./meettheteam";
-import Team from "./teamone"
 import EventCard from "../assets/eventcard";
 import EventOne from "./event1";
 import { Link } from "react-router-dom";
